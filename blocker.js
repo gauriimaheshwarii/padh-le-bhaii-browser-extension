@@ -21,7 +21,7 @@ const defineHTML = () => {
   </div>`
 }
 
-const forbiddenURLs = ["twitter.com", "web.whatsapp.com"];
+const forbiddenURLs = ["twitter.com", "web.whatsapp.com","instagram.com","netflix.com","youtube.com","pinterest.com","reddit.com","amazon.com","music.youtube.com","facebook.com"];
 const set = new Set(forbiddenURLs);
 
 if (set.has(window.location.hostname)) {
